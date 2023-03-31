@@ -7,12 +7,19 @@ test <- function() {
 # Calling the function
 test()
 
-# Passing parameters
+# Passing a parameter
 second <- function(fname) {
   paste(fname, "Godwin")
 }
 
-# Replacing the parameters in the function and calling it
+# Replacing the parameter in the function and calling it
 second("Peter")
 second("Joe")
 second("Steph")
+
+# Passing two parameters 
+third <- function(fname, sname) {
+  paste(fname, sname)
+}
+
+third("hello", "world")
